@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="wholePage">
+    <header>     
+    <h1>Mohammed Alfaraj's Portfolio Page</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">My Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <li><button id="buttonTheme" onclick="toggleTheme()">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a Computer Science student who is passionate about learning web development to build clean and responsive websites.</p>
+        <p>I'm interested in different aspects of CS and SWE, and I'm always eager to learn and improve my skills.</p>
+        <p><strong>TagLine:</strong> Plan accordingly and use every second wisely</p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skillsContainer">
+            <div>
+                <h3>Hard Skills</h3>
+                <ul>
+                    <li>Programming Using python, Java, HTML, Javascript</li>
+                    <li>Database Management</li>
+                    <li>Information Security </li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Soft Skills</h3>
+                <ul>
+                    <li>Cooperative With Teammates</li>
+                    <li>Good Leadership</li>
+                    <li>Creative Thoughts</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div>
+            <h3>Project 1: Working Clock Using Verilog</h3>
+            <p>A project where an FPGA board is used as an alarm clock that was programmed using the 
+                Verilog programming language. Users can change the time or set an alarm using switches 
+                that represent a number in binary. When the alarm time is reached, an LED light will turn on</p>
+            <img src="assets/images/FPGA-board.jpg" alt="FGA board connected" width="600" height="300">
+        </div>
+
+        <div>
+            <h3>Project 2: Shortest Path Algorithm</h3>
+            <p>A project where a scenario with a starting point and goal is represented as a 2D array with 
+                specific constraints. Breadth-First Search (BFS) is used to find the shortest possible path 
+                and calculate the minimum number of moves required.</p>
+            <img src="assets/images/BFS.png" alt="Shortest path Algorithm in process" width="600" height="300">
+        </div>
+
+        <div>
+            <h3>Project 3: Creating a game using JavaFX</h3>
+            <p>A project about a game that allows the player to control a colored ball. A star would appear 
+                in the middle of the screen, and players need to maneuver the ball to the edge with the same 
+                color as the ball to score points.</p>
+            <img src="assets/images/Stars.png" alt="Flying Start game" width="600" height="300">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    </div>
+</body>
+</html>
