@@ -42,8 +42,46 @@ function greetingMessage(){
     greetingElement.textContent = message
 }
 
+function projectSearch(){
+    //variables to take values from the html page
+    const input = document.getElementById("projectSearch");
+    const allProject = document.querySelectorAll(".projectSection");
+    const nullMessage = document.getElementById("projectMessageNull");
+
+    //checks the data search values and compare with the input in the label
+    input.addEventListener("input", function () {
+        const value = input.value.toLowerCase().trim();
+        //stores projects that include the keywords
+        let projects = 0;
+
+        allProject.forEach(function (p) {
+            const text = p.dataset.search.toLowerCase();
+
+            //show if the value is included otherwise, do not display the project.
+            if(text.includes(value)) {
+                p.style.display = "flex";
+                projects++
+            }
+            else{
+                p.style.display = "none"
+            }
+        });
+
+        //if no projects include the keyworks entered in the search, display nullmessage
+        if(projects === 0){
+            nullMessage.style.display = "block"
+        }
+        
+        else{
+            nullMessage.style.display = "none"
+        }
+    })
+}
+
 window.addEventListener("DOMContentLoaded", function() {
     greetingMessage();
     const themeButton = document.getElementById("buttonTheme");
     themeButton.addEventListener("click", toggleTheme);
+
+    projectSearch();
 });

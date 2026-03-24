@@ -57,27 +57,38 @@
     <section id="projects">
         <h2>Projects</h2>
         <p class="sectionPhrase">Check some of the projects I have worked on in software and hardware development.</p>
-        <div>
+        
+        <div class="projectSearch"> 
+            <label for="projectSearch">Search Projects:</label>
+            <input type="text" id="projectSearch" name="search" placeholder="Type to search projects...">
+        </div>
+
+        <p id="projectMessageNull" class="sectionPhrase" style="display: none;">No projects found. Try another keyword.</p>
+
+        <div class="projectSection" data-search="Verilog FPGA clock alarm">
             <h3>Project 1: Working Clock Using Verilog</h3>
             <p>A project where an FPGA board is used as an alarm clock that was programmed using the 
                 Verilog programming language. Users can change the time or set an alarm using switches 
-                that represent a number in binary. When the alarm time is reached, an LED light will turn on</p>
+                that represent a number in binary. When the alarm time is reached, an LED light will turn on
+            </p>
             <img src="assets/images/FPGA-board.jpg" alt="FPGA board connected" width="600" height="300">
         </div>
 
-        <div>
+        <div class="projectSection" data-search="Shortest path BFS Algorithm graph search">
             <h3>Project 2: Shortest Path Algorithm</h3>
             <p>A project where a scenario with a starting point and goal is represented as a 2D array with 
                 specific constraints. Breadth-First Search (BFS) is used to find the shortest possible path 
-                and calculate the minimum number of moves required.</p>
+                and calculate the minimum number of moves required.
+            </p>
             <img src="assets/images/BFS.png" alt="Shortest path Algorithm in process" width="600" height="300">
         </div>
 
-        <div>
+        <div class="projectSection" data-search="JavaFX flying stars game">
             <h3>Project 3: Creating a game using JavaFX</h3>
             <p>A project about a game that allows the player to control a colored ball. A star would appear 
                 in the middle of the screen, and players need to maneuver the ball to the edge with the same 
-                color as the ball to score points.</p>
+                color as the ball to score points.
+            </p>
             <img src="assets/images/Stars.png" alt="Flying Start game" width="600" height="300">
         </div>
     </section>
