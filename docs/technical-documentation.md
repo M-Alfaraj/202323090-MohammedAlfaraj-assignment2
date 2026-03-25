@@ -1,4 +1,6 @@
-# Project Overview
+#technical-documentation
+
+## Project Overview
 This assignment is about improving my portfolio website by adding interactive features and using localstorage to save the current theme the user selected, a search feature to filter projects based on keywords entered, and a form validation system that gives feedback based on the input.
 
 ## Technologies and Tools used
