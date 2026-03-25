@@ -34,26 +34,16 @@ For more details, check doc/ai-usage-report.md.
 
 ## Project Structures
 assignment-2/
+assignment-2/
 ├── README.md
-
 ├── index.html
-
 ├── css/
-
 │   └── styles.css
-
 ├── js/
-
 │   └── script.js
-
 ├── assets/
-
 │   └── images/
-
 ├── docs/
-
 │   ├── ai-usage-report.md
-
 │   └── technical-documentation.md
-
 └── .gitignore
