@@ -346,8 +346,22 @@ button:hover {
     background-color: black;
 }
 
-.darkMode #about, .darkMode .projectSearch, .darkMode .projectSection, .darkMode .skillsContainer div, .darkMode #contact, .darkMode #projectMessageNull {
+.darkMode #about, .darkMode .projectSearch, .darkMode .projectSection, .darkMode .skillsContainer div, .darkMode #contact {
     background-color: #1e1e1e;
+}
+
+.darkMode #projectMessageNull, .darkMode .sectionPhrase {
+    color: #dddddd;
+}
+
+.darkMode .formMessage.success {
+    background-color: #274a33;
+    color: #9be7b0;
+}
+
+.darkMode .formMessage.error {
+    background-color: #452026;
+    color: #faa5b0;
 }
 
 .darkMode .wholePage {
@@ -358,4 +372,36 @@ button:hover {
 
 .darkMode .sectionPhrase {
     color: #dddddd;
+}
+
+/*From Validation CSS*/
+.formMessage {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+.formMessage.success {
+    background-color: #c8decd;
+    color: #145e25;
+}
+
+.formMessage.error {
+    background-color: #e6c5c8;
+    color: #85212a;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

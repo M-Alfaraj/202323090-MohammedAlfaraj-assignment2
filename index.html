@@ -95,8 +95,11 @@
 
     <section id="contact">
         <h2>Contact me</h2>
+
         <p class="sectionPhrase">Feel free to send me a message using the form below.</p>
-        <form>
+        <p id="formMessage" class="formMessage" style="display: none;"></p>
+        
+        <form id="contactForm" novalidate>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name"  required>
 
@@ -107,6 +110,7 @@
             <textarea id="message" name="message" rows="4" cols="50" required></textarea>
 
             <button type="submit">Send Message</button>
+
         </form>
     </section>
     </div>
