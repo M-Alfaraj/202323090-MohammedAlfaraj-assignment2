@@ -157,4 +157,4 @@ Code for formValidation:
         }
         
 ## Learning Outcome
-I have improved my understanding in JavaScript and have understood the usefulness of localStorage to save changes by the user and create a validation system to  make my website more interactive and user friendly. 
+I have improved my understanding in JavaScript and have understood the usefulness of localStorage to save changes by the user and create a validation system to  make my website more interactive and user friendly. And with ChatGPT's assistance, I was able to understand how to use certain code and create useful functions that will help me in the future.
