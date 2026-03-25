@@ -10,18 +10,44 @@ This assignment is about improving my portfolio website by adding interactive fe
 - ChatGPT: Used to assist debugging bugs and suggestions for tasks
 
 ## Features and Functionalities
-- Responsive Layout
-- Light and Dark Mode Theme Toggle
-- Form Validation
-- Hover effect on cards and transitons
-- Project Search Filter
-- Greeting Message based on the time of the day
-- Saved Current Theme using LocalStorage
-- Success and Failure message for form feedback
+
+### 1. Responsive Layout
+The websites adjusts content based on the screen size using media queries to improve usability on different devices.
+
+### 2. Light and Dark Mode Theme Toggle with localStorage
+A button in the nav section that changes from light to dark mode and vice versa.
+Javascript used for:
+- Switches between light and dark mode
+- Updates the button icon
+- saves the selected theme using localStorage
+- load the saved them when the page is reloaded
+
+### 3. Form Validation and form feedback
+The content in the form is validated using javaScript.
+The form checks if all fields are filled and if the email format is correct.
+if the validation fails it will show am error message, otherwise, show a success message if the validation successeds 
+
+### 4.  Animations and transitons
+The website uses CSS to transitions and animations to improve user experience by
+- Adding a hover effect on cards and buttons
+- Animating success and error messages
+- Smooth visual transitions
+
+### 5. Project Search Filter
+The project section has a search that takes input to filter the projects.
+JavaScript is used to compare the entered keyword with each project's 'data search'.
+'FPGA' will show the first project.
+'BFS' will show the second project.
+'star' will show the third project.
+'cloud' will show the no projects message.
+
+### 6. Greeting Message based on the time of the day
+A greeting message that shows up about the navbar depending on the time of day.
 
 ## Javascirpt Code for Assignment 2
 
 Code for toggleTheme (Added localStorage):
+
 
       function toggleTheme(){
       //refers to the body element
