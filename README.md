@@ -15,9 +15,9 @@ This is my assignment 2 portfolio website, which is a continuation of assignment
 - Success and Failure message for form feedback
 
 ## Technologies and Tools used:
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## How to Run Locally:
 1. Clone the repository
