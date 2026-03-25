@@ -20,9 +20,9 @@ This is my assignment 2 portfolio website, which is a continuation of assignment
 -JavaScript
 
 ## How to Run Locally:
-1- Clone the repository
-2- Open the project folder in VS code
-3- Open and Run 'index.html' file in you browser
+1. Clone the repository
+2. Open the project folder in VS code
+3. Open and Run 'index.html' file in you browser
 
 ## AI Usage Summary:
 The only AI tool used was ChatGPT and it helped with:
