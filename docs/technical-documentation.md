@@ -9,21 +9,6 @@ This assignment is about improving my portfolio website by adding interactive fe
 - JavaScript: The functionalities of the page
 - ChatGPT: Used to assist debugging bugs and suggestions for tasks
 
-## Project Structures
-assignment-2/  
-├── README.md  
-├── index.html  
-├── css/  
-│   └── styles.css  
-├── js/  
-│   └── script.js  
-├── assets/  
-│   └── images/  
-├── docs/  
-│   ├── ai-usage-report.md  
-│   └── technical-documentation.md  
-└── .gitignore
-
 ## Features and Functionalities
 - Responsive Layout
 - Light and Dark Mode Theme Toggle
