@@ -34,8 +34,7 @@ For more details, check doc/ai-usage-report.md.
 
 ## Project Structures
 assignment-2/
-assignment-2/
-├── README.md
+├── README.md  
 ├── index.html
 ├── css/
 │   └── styles.css
