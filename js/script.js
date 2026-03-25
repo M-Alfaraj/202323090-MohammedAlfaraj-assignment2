@@ -140,7 +140,7 @@ function formValidation(){
     });
 }
 
-//Run all function on startup after the content loads
+//Run all functions on startup after the content loads
 window.addEventListener("DOMContentLoaded", function() {
     themeDataHandeling()
     greetingMessage();
