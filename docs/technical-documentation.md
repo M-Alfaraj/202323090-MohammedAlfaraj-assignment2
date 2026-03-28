@@ -1,7 +1,7 @@
 # Technical Documentation
 
 ## Project Overview
-This assignment is an improved version of my portfolio website from assignment 1. It adds interactive features, uses localStorage to save the current theme, includes a project search feature, and a form validation system that gives feedback.
+This assignment is an improved version of my portfolio website from Assignment 1. It adds interactive features, uses localStorage to save the current theme, includes a project search feature, and a form validation system that gives feedback.
 
 ## Technologies and Tools Used
 - HTML: The structure of the website.
@@ -16,7 +16,7 @@ The website adjusts its layout based on the screen size using media queries to i
 
 ### 2. Light and Dark Mode Theme Toggle with localStorage
 A button in the navigation bar allows the user to switch between light and dark mode.
-Javascript is used to:
+JavaScript is used to:
 - Switches between light and dark mode.
 - Updates the button icon.
 - save the selected theme using localStorage.
@@ -35,7 +35,7 @@ The website uses CSS transitions and animations to improve user experience by:
 
 ### 5. Project Search Filter
 The project section includes a search bar that takes input to filter the projects.
-JavaScript is used to compare the entered keyword with each project's 'data search'.
+JavaScript is used to compare the entered keyword with each project's 'data-search'.
 `FPGA` will show the first project.
 `BFS` will show the second project.
 `star` will show the third project.
@@ -47,13 +47,13 @@ A greeting message is displayed above the navigation bar depending on the time o
 ## JavaScript Functions
 
 ### `toggleTheme()`
-Switches between light and dark mode and save the selected theme in localStorage.
+Switches between light and dark mode and saves the selected theme in localStorage.
       
 ### `themeDataHandeling()`
 Loads the last theme selected by the user when the page reloads.
 
 ### `greetingMessage()`
-displays a greeting message based on the time of day.
+Displays a greeting message based on the time of day.
          
 ### `projectSearch()`
 Filters the project cards based on the keywords entered in the search bar by the user.
@@ -62,4 +62,4 @@ Filters the project cards based on the keywords entered in the search bar by the
 Validates the contact form and shows either a success message or an error message.  
       
 ## Learning Outcome
-I improved my understanding in JavaScript and have understood the usefulness of localStorage to save changes by the user and create a validation system to  make my website more interactive and user friendly. And with ChatGPT's assistance, I was able to understand how to use certain code and create useful functions that will help me in the future.
+I improved my understanding in JavaScript and have understood the usefulness of localStorage to save changes by the user and create a validation system to  make my website more interactive and user-friendly. And with ChatGPT's assistance, I was able to understand how to use certain code and create useful functions that will help me in the future.
