@@ -14,7 +14,7 @@ ChatGPT helped me with:
 - Helped in creating the project search and filter function.
 
 ### Challenges
-Some challenge I had with ChatGPT were when it gives responses that did not fit my requirements like solutions that did not fit the task. So, i had to give it more detail and instructions on what i wanted and requirements needed for the task to ensure it would give useful statements that would help with the assignment. 
+Some challenges I had with ChatGPT were when it gives responses that did not fit my requirements like solutions that did not align with the task. So, i had to give it more detail and instructions on what i wanted and requirements needed for the task to ensure it would give useful statements that would help with the assignment. 
 
 ## Learning Outcome
 Using ChatGPT I learned:
@@ -23,4 +23,4 @@ Using ChatGPT I learned:
 - How to filter sections based on data-search value based on the keywords entered by the user.
 
 ## Responsible Use & Modifications
-All AI-generated code and suggestions from chatGPT were reviewed and modified based on my understanding rather than being used unmodified. I also added comments to explain and help make it easier to find code related to certain parts of HTML, CSS, and Javascript code. AI was also used to suggest new ideas and improvements to take into consideration to help make the page better, adjustments and ideas from ChatGPT were taken with consideration and all were coded by me based on my understanding.
+All AI-generated code and suggestions from ChatGPT were reviewed and modified based on my understanding rather than being used unmodified. I also added comments to explain and help make it easier to find code related to certain parts of HTML, CSS, and Javascript code. AI was also used to suggest new ideas and improvements to take into consideration to help make the page better, adjustments and ideas from ChatGPT were taken with consideration and all were coded by me based on my understanding.
