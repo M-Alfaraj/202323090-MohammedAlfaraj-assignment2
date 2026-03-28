@@ -62,4 +62,4 @@ Filters the project cards based on the keywords entered in the search bar by the
 Validates the contact form and shows either a success message or an error message.  
       
 ## Learning Outcome
-I improved my understanding of JavaScript and learned howw usefulness localStorage can be to save changes by the user and create a validation system to  make my website more interactive and user-friendly. And with ChatGPT's assistance, I was able to understand how to use certain code and create useful functions that will help me in the future.
+I improved my understanding of JavaScript and learned how usefulness localStorage can be to save changes by the user and create a validation system to  make my website more interactive and user-friendly. And with ChatGPT's assistance, I was able to understand how to use certain code and create useful functions that will help me in the future.
